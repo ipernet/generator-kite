@@ -1,0 +1,31 @@
+{
+  "name": "generator-kite",
+  "version": "1.0.0",
+  "description": "Kite Boilerplate generator",
+  "keywords": [
+    "yeoman-generator",
+    "html",
+    "boilerplate",
+    "template",
+    "kite"
+  ],
+  "main": "app/index.js",
+  "repository": "krds/generator-kite",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.19.2",
+    "yeoman-assert": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": "MIT",
+  "files": [
+    "app"
+  ]
+}
